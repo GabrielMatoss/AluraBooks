@@ -1,5 +1,5 @@
 .cabeçalho {
-    background-color: var(--background-white);
+    background-color: var(--white-primary);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -41,7 +41,7 @@
 
 .lista-menu__titulo, .lista-menu__item {
     padding: 1rem;
-    background-color: var(--background-white);
+    background-color: var(--white-primary);
 }
 
 .lista-menu__titulo {
