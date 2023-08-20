@@ -5,8 +5,12 @@
     --background-white: #FFF;
     --color-title-menu: #EB9B00;
     --blue-gradient: linear-gradient(160deg, #002F52 0%, #326589 100%);
+    --font-primary: 'Poppins', sans-serif;
 }
 
 body {
     background-color: var(--background-gray);
+    font-family: var(--font-primary);
+    font-weight: 400;
+    font-size: 1rem;
 }
