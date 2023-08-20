@@ -32,4 +32,22 @@
     display: none;
     position: absolute;
     top: 100%;
+    width: 60vw;
+}
+
+.lista-menu__titulo, .lista-menu__item {
+    padding: 1rem;
+    background-color: var(--background-white);
+}
+
+.lista-menu__titulo {
+    color: var(--color-title-menu);
+}
+
+.lista-menu__link {
+    background: var(--blue-gradient);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
 }
