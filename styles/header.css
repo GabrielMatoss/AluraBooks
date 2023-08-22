@@ -47,7 +47,7 @@
 }
 
 .lista-menu__titulo {
-    color: var(--color-title-menu);
+    color: var(--orange-primary);
     font-weight: 700;
 }
 
