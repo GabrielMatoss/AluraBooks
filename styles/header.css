@@ -86,6 +86,7 @@
     .opcoes__item {
         padding: 0 1rem;
         text-transform: uppercase;
+        cursor: pointer;
     }
 
     .opcoes__link {
@@ -95,5 +96,14 @@
 
     .container__imagem-transparente, .cabecalho__menu-hamburguer {
         display: none;
+    }
+
+    .opcoes__botao {
+        display: none;
+    }
+
+    .opcoes__botao:checked~.lista-menu {
+        display: block;
+        width: auto;
     }
 }
