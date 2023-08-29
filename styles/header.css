@@ -28,10 +28,6 @@
     display: block;
 }
 
-.container__botao {
-    display: none;
-}
-
 .lista-menu {
     display: none;
     position: absolute;
@@ -59,7 +55,10 @@
     text-transform: uppercase;
 }
 
-.container__titulo, .opcoes {
+.opcoes, 
+.container__titulo,
+.container__botao,
+.container__texto {
     display: none;
 }
 
@@ -105,5 +104,26 @@
     .opcoes__botao:checked~.lista-menu {
         display: block;
         width: auto;
+    }
+}
+
+@media screen and (min-width: 1728px) {
+    .container__link {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: var(--black-primary);
+    }
+
+    .cabecalho {
+        padding: 0 2rem;
+    }
+
+    .opcoes {
+        margin-right: auto;
+    }
+
+    .container__texto {
+        display: block;
     }
 }
