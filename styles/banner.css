@@ -31,7 +31,7 @@
     font-size: 0.875rem;
     font-weight: 400;
     text-align: center;
-    background: url("../assets/Pesquisa.svg") no-repeat left;
+    background: url("../assets/icones/Pesquisa.svg") no-repeat left;
 }
 
 @media screen and (min-width: 1024px) { 
